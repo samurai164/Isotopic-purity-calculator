@@ -215,7 +215,7 @@ def fengzhuang(ai,a,b,g):
     return fengdu(In_a, a)
 
 def run():
-    path = "数据1.xlsx"
+    path = "data.xlsx"
     a, b, c, d, e, f, m = 0, 0, 0, 0, 0, 0, 0
     cm = calculate_m(a, b, c, d, e, f, m)
     ai, ci, ei = tongji(cm, a, c, e)
